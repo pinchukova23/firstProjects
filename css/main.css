@@ -79,7 +79,7 @@ body {
     align-items: flex-end;
 }
 
-.hero__container-title {
+.hero__title {
     max-width: 124px;
     line-height: 59px;
     font-size: 47px;
@@ -87,7 +87,7 @@ body {
     margin-right: 298px;
 }
 
-.hero__container-info {
+.hero__info {
     margin: 0;
 }
 
@@ -169,7 +169,6 @@ body {
 
 .skills {
     margin-top: 91px;
-    margin-bottom: 110px;
 }
 
 .skills__container {
@@ -240,9 +239,9 @@ body {
     font-weight: 600;
     max-width: 80px;
 }
-.p
-ortfolio {
+.portfolio {
     background-color:  #F6F6F6;
+    margin-top: 110px;
 }
 
 .portfolio__wrapper {
@@ -332,7 +331,7 @@ ortfolio {
 
 .media__list {
     display: flex;
-    justify-content: center;
+    align-items: center;
     margin: 0;
     padding: 0;
 }
@@ -356,6 +355,8 @@ ortfolio {
 
 .media__follows {
     margin-top: 45px;
+}
+.media__follows-name {
     color: #828282;
     font-size: 14px;
 }
