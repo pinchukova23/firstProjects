@@ -1,0 +1,362 @@
+/* athiti-regular - latin */
+@font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Athiti';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/athiti-v12-latin-regular.woff2') format('woff2'), /* Chrome 36+, Opera 23+, Firefox 39+ */
+         url('../fonts/athiti-v12-latin-regular.woff') format('woff'); /* Chrome 5+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+  /* athiti-600 - latin */
+@font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Athiti';
+    font-style: normal;
+    font-weight: 600;
+    src: url('../fonts/athiti-v12-latin-600.woff2') format('woff2'), /* Chrome 36+, Opera 23+, Firefox 39+ */
+         url('../fonts/athiti-v12-latin-600.woff') format('woff'); /* Chrome 5+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+html {
+    box-sizing: border-box;
+}
+*,*::before,*::after {
+    box-sizing: inherit;
+}
+
+body {
+    font-family: 'Athiti';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    margin: 0;
+    color: #070707;
+}
+
+.container {
+    max-width: 944px;
+    margin: 0 auto;
+}
+
+.header__wrapper {
+    border-bottom: 1px solid #828282;
+    padding-top: 33px;
+    padding-bottom: 31px;
+
+}
+
+.header__list {
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.header__link {
+    font-size: 18px;
+    line-height: 22px;
+    color: #828282;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.header__link:hover {
+    opacity: .8;
+}
+
+.header__link--active {
+    color: #070707;
+}
+
+.hero {
+    margin-top: 40px;
+}
+
+.hero__container {
+    display: flex;
+    position: relative;
+    align-items: flex-end;
+}
+
+.hero__title {
+    max-width: 124px;
+    line-height: 59px;
+    font-size: 47px;
+    margin: 0;
+    margin-right: 298px;
+}
+
+.hero__info {
+    margin: 0;
+}
+
+.hero__button {
+    transform: rotate(-90deg);
+    position: absolute;
+    top: 64px;
+    right: -22px;
+}
+
+.hero__language {
+    border: 0;
+    background-color: transparent;
+    size: 16px;
+    color: #828282;
+    font-weight: 600;
+    padding: 0;
+}
+
+.hero__language:hover {
+    opacity: .8;
+}
+
+.hero__language--active {
+    color: #070707;
+}
+
+.hero__divider-language {
+    size: 16px;
+    font-weight: 600;
+    color: #070707;
+}
+
+.hero__img {
+    margin-top: 50px;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.about {
+    margin-top: 104px;
+    background-color:  #F6F6F6;
+}
+
+.about__wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 120px;
+    padding-bottom: 107px;
+}
+
+.about__title {
+    font-size: 34px;
+    line-height: 43px;
+    margin: 0;
+    margin-bottom: 18px;
+}
+
+.about__list {
+    padding: 0;
+    margin: 0;
+    font-size: 18px;
+    list-style: none;
+}
+
+.about__list-info {
+    margin-bottom: 50px;
+}
+.about__list-info:last-child {
+    margin: 0;
+}
+
+.about__text {
+    margin: 0;
+    text-align: center;
+}
+
+.skills {
+    margin-top: 91px;
+}
+
+.skills__container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.skills__title {
+    margin: 0;
+    font-size: 34px;
+    margin-bottom: 69px;
+    text-align: center;
+}
+
+.skills__text {
+    margin: 0;
+    font-size: 18px;
+    margin-bottom: 83px;
+}
+
+.skills__list {
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 90px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.skills__item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 167px;
+    height: 100%;
+}
+
+.skills__item-img {
+    width: 100%;
+    object-position: center;
+}
+
+.skills-item-name {
+    text-align: center;
+    margin-bottom: 40px;
+    margin-top: 24px;
+}
+
+.skills__star-list {
+    display: flex;
+    padding: 0;
+    margin-top: auto;
+    list-style: none;
+}
+
+.skills__star {
+    margin-right: 9px;
+}
+.skills__star:last-child {
+    margin: 0;
+}
+
+.skills-item-name {
+    color: #828282;
+    font-size: 14px;
+    line-height: 17px;
+    font-weight: 600;
+    max-width: 80px;
+}
+.portfolio {
+    background-color:  #F6F6F6;
+    margin-top: 110px;
+}
+
+.portfolio__wrapper {
+    padding-top: 112px;
+    padding-bottom: 96px;
+}
+
+.portfolio__title {
+    margin: 0;
+    margin-bottom: 47px;
+    text-align: center;
+}
+
+.portfolio__list{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.portfolio__items {
+    margin-bottom: 99px;
+}
+.portfolio__items:last-child {
+    margin: 0;
+}
+
+.portfolio__img{
+    margin-bottom: 45px;
+    max-width: 100%;
+    object-fit: cover;
+    object-position: center;
+
+}
+
+.portfolio__link {
+    color: #070707;
+}
+
+.portfolio__link:hover {
+    opacity: 0.8;
+}
+
+.portfolio__link-text {
+    padding: 0;
+    margin: 0;
+    font-size: 18px;
+    text-align: center;
+}
+
+.footer__wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-top: 114px;
+    margin-bottom: 123px;
+}
+
+.contacts__title {
+    padding: 0;
+    margin: 0;
+    font-size: 34px;
+}
+
+.contacts__text {
+    margin: 0;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    font-size: 18px;
+}
+
+.contacts__button {
+    background: #070707;
+    color: white;
+    border: none;
+    font-size: 18px;
+    border-radius: 30px;
+    padding: 13px 30px;
+    margin-bottom: 86px;
+}
+.contacts__button:hover {
+    opacity: .8;
+}
+
+.media__list {
+    display: flex;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+
+.media__item {
+    margin-right: 70px;
+    list-style-type: none;
+}
+.media__item:last-child {
+    margin-right: 0;
+}
+.media__link:hover {
+    opacity: 0.8;
+}
+
+.media__img {
+    max-width: 100%;
+    object-position: center;
+    object-fit: cover;
+}
+
+.media__follows {
+    margin-top: 45px;
+}
+.media__follows-name {
+    color: #828282;
+    font-size: 14px;
+}
